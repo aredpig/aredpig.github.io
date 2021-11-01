@@ -3,10 +3,10 @@ var lastSwing = 0;
 var size_of_heart=100;
 var offset_x = 75;
 var flag = true;
-var lives=["life","life","life"];
+var lives;
 var Game_Start = false;
 var word;
-var MisrepresentList = [];
+var MisrepresentList;
 var DifficultiesLevel;
 const GoodWorods = ["Committed",
     "Flexible ",
@@ -100,6 +100,10 @@ function DisplayInstruction(){
 }
 
 function changeTostart() {
+    background(50,230,100);
+    fill(0);
+    lives=["life","life","life"];
+    MisrepresentList = [];
     if(DifficultiesLevel==undefined){
         alert("Please select the game Level")
         return;
@@ -143,9 +147,12 @@ function draw() {
 
         if (lives.length==0) {
             Game_Start = false;
+            InitialGame();
             alert("You have run out of your lives!");
             alert("Misreprents words: "+ MisrepresentList);
-            return;
+            fill(0);
+            background(255,0,0);
+            // return;
         };
 
 
@@ -193,7 +200,6 @@ function draw() {
                     rect(tempx, y, word.length+w, h);
                     push();
                     fill(250);
-        
                     text(word, tempx, tempy, word.length);
                     pop();
             
