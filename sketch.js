@@ -166,8 +166,8 @@ function draw() {
 
 
         fill(255,0,0);
-        for(i=1; i<lives.length+1;i++){
-            heart(width/1.8+size_of_heart/2+ i*offset_x, 70, size_of_heart/2);
+        for(i=0; i<lives.length;i++){
+            heart(width/1.8+size_of_heart/1.5 * i, 70, size_of_heart/2);
         }
  
         for (let i=0; i < 12; i++) {
