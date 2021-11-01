@@ -102,7 +102,7 @@ function DisplayInstruction(){
 function changeTostart() {
     if(DifficultiesLevel==undefined){
         alert("Please select the game Level")
-        retrurn;
+        return;
     }
     Game_Start=true;
     word = selectWord();
