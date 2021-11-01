@@ -1,6 +1,6 @@
 var score = 0;
 var lastSwing = 0;
-var size_of_heart=100;
+var size_of_heart;
 var offset_x = 75;
 var flag = true;
 var lives;
@@ -46,6 +46,7 @@ const NegtiveWords = ["Domination",
 function setup() {
     createCanvas(windowWidth, windowHeight);
     noStroke();
+    size_of_heart = height/14;
     // textSize(width*0.09);
     // noLoop();
     smooth();
@@ -166,7 +167,7 @@ function draw() {
 
         fill(255,0,0);
         for(i=1; i<lives.length+1;i++){
-            heart(1050+size_of_heart/2+ i*offset_x, 70, size_of_heart/2);
+            heart(width/1.8+size_of_heart/2+ i*offset_x, 70, size_of_heart/2);
         }
  
         for (let i=0; i < 12; i++) {
