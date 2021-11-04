@@ -33,4 +33,4 @@ This is a interactive game, the player will be asked several questions about the
 To play this game, please go to: [Tookit 2](https://drive.google.com/drive/folders/1SVV2OG2LIkxlmHUMwTMveleewuiOUsKB?usp=sharing).
 <br/> 
 <br/> 
-Download the whole document and click **Become a professional engineer.exe** for play.
+Download the whole **Folder** and click **Become a professional engineer.exe** to play.
