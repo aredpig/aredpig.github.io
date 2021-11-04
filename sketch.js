@@ -8,6 +8,7 @@ var Game_Start = false;
 var word;
 var MisrepresentList;
 var DifficultiesLevel;
+var FRAMES;
 const GoodWorods = ["Committed",
     "Flexible ",
     "Engaged",
@@ -78,18 +79,21 @@ function DifficultiesSelect(){
     master.position(windowWidth/5,(windowHeight/10)*3);
     starter.mousePressed(() => {
         DifficultiesLevel = 50;
+        FRAMES = 15;
         starter.hide();
         junior.hide();
         master.hide();
     });
     junior.mousePressed(() => {
         DifficultiesLevel = 35;
+        FRAMES = 20;
         starter.hide();
         junior.hide();
         master.hide();
     });
     master.mousePressed(() => {
         DifficultiesLevel = 25;
+        FRAMES = 30;
         starter.hide();
         junior.hide();
         master.hide();
@@ -157,11 +161,12 @@ function draw() {
         };
 
 
-        frameRate(30);
+        frameRate(FRAMES);
 
         background(50,230,100);
         fill(0);
-        text("SCORE: "+score,20,120);
+        textSize(height/20);
+        text("SCORE: "+score,width/3,height/10.5);
         
 
 
@@ -195,10 +200,10 @@ function draw() {
 
                 tempy = y+20;
             
-                rect(x, y, w, h);
+                //rect(x, y, w, h);
                 if(word.length>=7){
                     tempx = x-20;
-                    rect(tempx, y, word.length+w, h);
+                    rect(tempx, y, 55+w, h);
                     push();
                     fill(250);
                     text(word, tempx, tempy, word.length);
@@ -206,7 +211,7 @@ function draw() {
             
                 }
                 else{
-                    rect(x, y,  word.length+w, h);
+                    rect(x-20, y,  55+w, h);
                     push();
                     fill(250);
                     text(word, x, tempy, word.length);
