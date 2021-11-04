@@ -166,13 +166,13 @@ function draw() {
         background(50,230,100);
         fill(0);
         textSize(height/20);
-        text("SCORE: "+score,width/3,height/10.5);
+        text("SCORE: "+score,width/10,height/10.5);
         
 
 
         fill(255,0,0);
         for(i=0; i<lives.length;i++){
-            heart(width/1.8+size_of_heart/1.5 * i, 70, size_of_heart/2);
+            heart(width/1.5+size_of_heart/1.5 * i, height/16, size_of_heart/2);
         }
  
         for (let i=0; i < 12; i++) {
