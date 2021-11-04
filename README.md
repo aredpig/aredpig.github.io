@@ -27,7 +27,7 @@ To play this game, please go to: [Tookit 1](http://aredpig.github.io).
 ![Toolkit2](./assets/toolkit2.png)
 <br/>
 <br/>
-This is a interactive game, the player will be asked several questions about the engineer ethics and there are several options for the answer, player need to select one option which he think is correct. However, Different options correspond to different scores, after answering the all questions, the player will get a report about the professional engineer ethics according to his total score, this report includes his advantage,his advantage and so on, which can help the player have more understanding about how to become a professional engineer.
+This is a interactive game, the player will be asked several questions about the engineer ethics and there are several options for the answer, player need to select one option which he think is correct. However, Different options correspond to different scores, after answering the all questions, the player will get a report about the professional engineer ethics according to his total score, this report includes his advantage,his disadvantage and so on, which can help the player have more understanding about how to become a professional engineer.
 <br/> 
 <br/> 
 To play this game, please go to: [Tookit 2](https://drive.google.com/drive/folders/1SVV2OG2LIkxlmHUMwTMveleewuiOUsKB?usp=sharing).
