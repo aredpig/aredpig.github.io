@@ -19,7 +19,7 @@
     The words about engineer ethics will appear at the holes, which may be positive words or negative words, you need to select them by clicking the words, if you select a good word, your score will add one, if you select negative words, your life value, the heart icon at the right top of the page, will minus one. When your life value comes to zero, the game ends, you can see how many scores you get, which can show your understanding of the good qualities and the bad qualities of the engineer ethics.
 <br/>
 <br/>
-To play this game, please go to: [Tookit 1](aredpig.github.io).
+To play this game, please go to: [Tookit 1](http://aredpig.github.io).
 <br/>
 <br/>
 <br/>
